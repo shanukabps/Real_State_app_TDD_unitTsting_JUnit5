@@ -1,0 +1,16 @@
+<html>
+                <head>
+                <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+                <title>024 Write unit tests for RealEstateApp</title>
+                </head>
+                <body>
+                <div class="container">
+                <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <p class="lead"><p>It's time for some additional practice! Your task is to import RealEstateApp in a way similar to HealthyCoderApp and write as many unit tests as you can.</p><p><br></p><p>RealEstateApp is a project stub for real estate agents. There are three classes available:</p><p><br></p><p>1. Apartment (with a given area and price).</p><p>2. ApartmentRater, which rates the price/area ratio for a given apartment. There are three possible ratings: 0 (best price/area ratio), 1 or 2 (worst price/area ratio).</p><p>3. RandomApartmentGenerator, which generates an apartment with a random price and area. If you invoke the constructor with no parameters, the default values are used: minimum area of 30.0 square meters and minimum price per square meter of 3000.0. You can also specify your own minimum area and price. In either case, the maximum values are: mimum values * 4.0.</p><p><br></p><p>Here are my suggestions as to what tests you can write:</p><p><br></p><p>1. For ApartmentRater:</p><p>a. should_ReturnCorrectRating_When_CorrectApartment -- write a parameterized test with different values</p><p>b. should_ReturnErrorValue_When_IncorrectApartment</p><p>c. should_CalculateAverageRating_When_CorrectApartmentList</p><p>d. should_ThrowExceptionInCalculateAverageRating_When_EmptyApartmentList</p><p><br></p><p>2. For RandomApartmentGenerator (since values are randomly generated, repeat the tests multiple times):</p><p>a. should_GenerateCorrectApartment_When_DefaultMinAreaMinPrice</p><p>b. should_GenerateCorrectApartment_When_CustomMinAreaMinPrice</p><p><br></p><p>If you can come up with any other tests, that's even better! The solution to the exercises, however, will only contain the tests mentioned above.</p></p>
+                </div>
+                </div>
+                </div>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                </body>
+                </html>
